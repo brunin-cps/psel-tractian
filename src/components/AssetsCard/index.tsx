@@ -1,13 +1,8 @@
 import "./style.scss";
 import { useState, useEffect } from 'react';
 import Card from 'react-bootstrap/Card';
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import HighchartsReact from 'highcharts-react-official'
 import Highcharts from 'highcharts/highstock'
-
-
-
-ChartJS.register(ArcElement, Tooltip, Legend);
 
 
 type UserProps = {
