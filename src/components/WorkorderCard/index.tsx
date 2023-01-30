@@ -1,16 +1,8 @@
 import "./style.scss";
-// import userPic from '../../assets/user.png'
-// import deleteIcon from '../../assets/lixeira.png'
-// import DeleteUser from "../DeleteUser";
 import { useState, useEffect } from 'react';
-// import EditUser from "../EditUser";
 import Card from 'react-bootstrap/Card';
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import Button from 'react-bootstrap/Button';
 import AddUser from "./Create";
-
-
-ChartJS.register(ArcElement, Tooltip, Legend);
 
 
 type UserProps = {
