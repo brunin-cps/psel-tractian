@@ -1,13 +1,13 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import "./App.scss"
-import { BrowserRouter as Router } from "react-router-dom"
+import { HashRouter as Router } from "react-router-dom"
 import AnimatedPage from './components/AnimatePage';
 
 
 function App() {
   return (
-    <Router>
+    <Router basename='/'>
       <AnimatedPage />
     </Router>
   )
